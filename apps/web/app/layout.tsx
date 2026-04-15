@@ -23,7 +23,13 @@ export const metadata = {
     template: "%s · Myriad Legal Consulting",
   },
   description: "UC Berkeley's premier legal consulting organization at the intersection of legaltech, business, and law.",
-  icons: { icon: "/assets/logo-icon.png" },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: { url: "/apple-icon.png", sizes: "180x180", type: "image/png" },
+  },
   openGraph: {
     title: "Myriad Legal Consulting at Berkeley",
     description: "UC Berkeley's premier legal consulting organization at the intersection of legaltech, business, and law.",
