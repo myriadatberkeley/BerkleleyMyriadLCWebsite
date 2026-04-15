@@ -98,7 +98,7 @@ export default function MyriadHero() {
             transition={{ duration: 0.8, delay: 0.4 }}
           >
             <motion.h1
-              className="text-6xl sm:text-8xl md:text-9xl lg:text-[10rem] font-normal tracking-wide font-serif"
+              className="text-6xl sm:text-8xl md:text-9xl lg:text-[10rem] font-normal tracking-wide font-serif inline-block pr-[0.08em] pb-[0.05em]"
               style={{
                 background: "linear-gradient(135deg, #CECAA8 0%, #e0dcc4 25%, #ffffff 50%, #7f7898 75%, #CECAA8 100%)",
                 backgroundSize: "400% 400%",
